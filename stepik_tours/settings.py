@@ -69,7 +69,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'stepik_tours.wsgi.application'
+# WSGI_APPLICATION = 'stepik_tours.wsgi.application'
+WSGI_APPLICATION = 'steptours.wsgi.application'
 
 
 # Database
