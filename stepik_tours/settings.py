@@ -50,7 +50,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'stepik_tours.urls'
+# ROOT_URLCONF = 'stepik_tours.urls' # before deploy
+ROOT_URLCONF = 'steptours.urls'  # before deploy
 
 TEMPLATES = [
     {
